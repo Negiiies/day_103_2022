@@ -12,6 +12,8 @@
  {
          stu_putchar(i);
          i = i - 1;
+}
+     {
      stu_putchar('\n');
-  }
  }
+}
