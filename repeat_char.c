@@ -9,9 +9,11 @@ void stu_repeat_char(char c, int n)
     while(nb < n)
         {
             stu_putchar(c);
-            stu_putchar('\n');
             nb += 1;
         }
+    {
+        stu_putchar('\n');
+    }
 }
 int main(void)
 {
