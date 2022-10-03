@@ -12,6 +12,8 @@ int main(void)
 {
         stu_putchar(i);
         i = i + 1;
-    stu_putchar('\n');
+ }
+    {
+stu_putchar('\n');
  }
 }
