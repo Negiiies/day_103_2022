@@ -1,12 +1,14 @@
 int stu_pow(int nb, int power)
 {
     int i;
+    int f;
     i = 1;
-    while(power) {
-        if (power & 1)
-            i *= nb;
-        nb *= nb;
-        power = power >> 1;
+    while(i < power) {
+        nb = nb * k;
+        i += i;
+        if (nb > 214748367){
+            return 0;
+        }
     }
-    return (i);
+    return (nb);
 }
