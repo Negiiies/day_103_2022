@@ -9,11 +9,11 @@ int main(void)
     int i;
     i = 'a';
     while(i <= 'z')
-{
-        stu_putchar(i);
-        i = i + 1;
- }
+        {
+            stu_putchar(i);
+            i = i + 1;
+        }
     {
-stu_putchar('\n');
- }
+        stu_putchar('\n');
+    }
 }
