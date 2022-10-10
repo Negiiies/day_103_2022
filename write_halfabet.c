@@ -6,14 +6,14 @@ void stu_putchar(char c)
 }
 int main(void)
 {
-int i;
-i = 'a';
-while(i <= 'z')
-{
-    stu_putchar(i);
-    i = i + 2;
- }
- {
-     stu_putchar('\n');
- }
+    int i;
+    i = 'a';
+    while(i <= 'z')
+        {
+            stu_putchar(i);
+            i = i + 2;
+        }
+    {
+        stu_putchar('\n');
+    }
 }
