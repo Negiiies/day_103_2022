@@ -11,12 +11,11 @@ int main(void)
         {
             if (i < 92)
                 {
-        stu_putchar(i);
-        i = i + 33;
+                    stu_putchar(i);
+                    i = i + 33;
                 }else{
                 stu_putchar(i);
                 i = i-31;
             }
-            
-}
+        }
 }
