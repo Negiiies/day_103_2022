@@ -17,10 +17,10 @@ int main(void)
                 stu_putchar(comb);
                 stu_putchar(' ');
                 comb += 1;
-        }else{
+            }else{
                 dés += 1;
                 comb = dés;
             }
-            }
-            stu_putchar('\n');
+        }
+    stu_putchar('\n');
 }
